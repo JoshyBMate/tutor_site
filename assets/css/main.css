@@ -1,0 +1,63 @@
+/* GENERAL STYLES */
+body {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*HEADER STYLES*/
+.header {
+    background-image: url("../img/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.header__overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.header__navbar {
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 30px;
+}
+
+.header__links {
+    font-size: 1.5rem;
+}
+
+.header__links a {
+    margin-left: 1rem;
+}
+
+.header__slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #fff;
+    width: 100%;
+    height: 80%;
+}
+
+.header__slogan h1{
+    font-weight: normal;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    padding: 10px;
+}
