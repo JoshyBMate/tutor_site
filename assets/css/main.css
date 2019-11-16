@@ -1,16 +1,25 @@
 /* GENERAL STYLES */
 body {
-    font-family: 'Heebo', sans-serif;
-    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 a {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
 }
 
 a:hover{
     text-decoration: underline;
+}
+
+section{
+    padding: 60px 50px;
+}
+
+.section__heading{
+    font-size: 3rem;
+    margin-bottom: 100px;
 }
 
 /*HEADER STYLES*/
@@ -18,23 +27,23 @@ a:hover{
     background-image: url("../img/hero.jpg");
     background-position: center;
     background-size: cover;
-    height: 100%;
-    width: 100%;
+    height: auto;
+
 }
 
 .header__overlay {
+    background-color: rgba(0, 0, 0, 0.4);
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
     z-index: 1;
 }
 
 .header__navbar {
+    align-items: baseline;
     display: flex;
     font-size: 2rem;
     justify-content: space-around;
-    align-items: baseline;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .header__links {
@@ -46,18 +55,58 @@ a:hover{
 }
 
 .header__slogan {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    display: flex;
     color: #fff;
+    height: 70%;
+    font-size: 2rem;
+    justify-content: center;
     width: 100%;
-    height: 80%;
 }
 
 .header__slogan h1{
-    font-weight: normal;
     border-top: 3px solid #fff;
     border-bottom: 3px solid #fff;
+    font-weight: normal;
     padding: 10px;
+}
+
+/*WHAT WE OFFER SECTION*/
+.packages{
+    text-align: center;
+}
+
+.packages__body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.packages__subheading{
+    font-size: 1.7rem;
+}
+
+.packages__text{
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.packages__img{
+    height: auto;
+    max-width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+/*ABOUT SECTION*/
+
+.about{
+    margin-top: 10rem;
+    text-align: center;
+    background-color: #323A3D;
+    color: #fff;
+}
+
+.about__details{
+    display: flex;
 }
