@@ -92,7 +92,6 @@ section{
 }
 
 .packages__img{
-    height: auto;
     max-width: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 2%;
@@ -101,7 +100,6 @@ section{
 /*ABOUT SECTION*/
 
 .about{
-    margin-top: 10rem;
     text-align: center;
     background-color: #323A3D;
     color: #fff;
@@ -123,4 +121,34 @@ section{
 .about__text{
     font-size: 1.4rem;
     flex-basis: 50%;
+}
+
+/*TEAM SECTION*/
+.team{
+    text-align: center;
+}
+
+.team__body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.team__details{
+    flex-basis: 40%;
+}
+
+.team__img{
+    max-width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2%;
+}
+
+.team__subheading{
+    font-size: 1.7rem;
+}
+
+.team__text{
+
+    line-height: 1.5;
+    font-size: 1.2rem;
 }
