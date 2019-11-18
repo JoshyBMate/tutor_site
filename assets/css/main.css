@@ -97,6 +97,21 @@ section{
     border-radius: 2%;
 }
 
+@media only screen and (max-width: 720px){
+    .packages__body{
+        flex-direction: column;
+    }
+
+    .packages__details{
+        margin-top: 50px ;
+    }
+
+    .packages__details--first{
+        margin-top: 0px;
+    }
+
+}
+
 /*ABOUT SECTION*/
 
 .about{
@@ -121,6 +136,12 @@ section{
 .about__text{
     font-size: 1.4rem;
     flex-basis: 50%;
+}
+
+@media only screen and (max-width: 720px){
+    .about__text{
+        flex-basis: 100%;
+    }
 }
 
 /*TEAM SECTION*/
@@ -152,6 +173,16 @@ section{
     font-size: 1.2rem;
 }
 
+@media only screen and (max-width: 720px){
+    .team__details{
+        margin-top: 50px;
+    }
+
+    .team__details--first{
+        margin-top: 0px;
+    }
+}
+
 /*CONTACT SECTION*/
 .contact{
     text-align: center;
@@ -181,6 +212,12 @@ section{
 
 .contact__text span{
     margin-left: 1.2rem;
+}
+
+@media only screen and (max-width: 720px){
+    .contact__text--first{
+        margin-top: 50px; 
+    }
 }
 
 /*FOOTER SECTION*/
