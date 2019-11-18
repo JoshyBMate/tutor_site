@@ -14,7 +14,7 @@ a:hover{
 }
 
 section{
-    padding: 40px 50px 100px;
+    padding: 40px 50px 80px;
 }
 
 .section__heading{
@@ -148,7 +148,44 @@ section{
 }
 
 .team__text{
-
     line-height: 1.5;
     font-size: 1.2rem;
+}
+
+/*CONTACT SECTION*/
+.contact{
+    text-align: center;
+    background-color: #323A3D;
+    color: #fff;
+}
+.contact__body{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.contact__img{
+    border-radius: 2%;
+    flex-basis: 40%;
+}
+
+.contact__text{
+    margin-top: 3rem;
+}
+
+.contact__text--first span{
+    margin-left: 1.2rem;
+}
+
+.contact__text span{
+    margin-left: 1.2rem;
+}
+
+/*FOOTER SECTION*/
+.footer{
+    text-align: center;
+    background-color: #323A3D;
+    color: #fff;
 }
