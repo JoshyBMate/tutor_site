@@ -23,6 +23,12 @@ section{
     margin-top: 0;
 }
 
+@media only screen and (max-width: 720px){
+    body{
+        font-size: 10px;
+    }
+}
+
 /*HEADER STYLES*/
 .header {
     background-image: url("../img/hero.jpg");
@@ -102,7 +108,7 @@ section{
     border-radius: 2%;
 }
 
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 1000px){
     .packages__body{
         flex-direction: column;
     }
@@ -146,6 +152,16 @@ section{
 }
 
 @media only screen and (max-width: 720px){
+    .about--heading{
+        padding-bottom: 0;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .about__text__container{
+        margin-left: 0px;
+    }
+    
     .about__details{
         flex-wrap: wrap;
     }
