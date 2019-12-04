@@ -112,6 +112,10 @@ section{
     .packages{
         font-size: 20px;
     }
+
+    .packages__img{
+        max-width: 100%;
+    }
     
     .packages__body{
         flex-direction: column;
