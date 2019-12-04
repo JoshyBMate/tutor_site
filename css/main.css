@@ -23,9 +23,9 @@ section{
     margin-top: 0;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1024px){
     body{
-        font-size: 10px;
+        font-size: 25px;
     }
 }
 
@@ -108,13 +108,17 @@ section{
     border-radius: 2%;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1024px){
     .packages{
-        font-size: 20px;
+        font-size: 25px;
+    }
+
+    .packages__subheading{
+        font-size: 30px;
     }
 
     .packages__img{
-        max-width: 100%;
+        max-width: 600px;
     }
     
     .packages__body{
@@ -159,9 +163,9 @@ section{
     flex-basis: 50%;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1024px){
     .about{
-        font-size: 20px;
+        font-size: 25px;
     }
     
     .about--heading{
@@ -215,7 +219,7 @@ section{
 }
 
 .team__subheading{
-    font-size: 27px;
+    font-size: 30px;
 }
 
 .team__text{
@@ -224,9 +228,9 @@ section{
     text-align: left;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1024px){
     .team{
-        font-size: 20px;
+        font-size: 25px;
     }
     
     .team__details{
@@ -255,10 +259,10 @@ section{
     margin-right: 30px;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1024px){
     .contact{
         flex-direction: column;
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
