@@ -1,0 +1,262 @@
+/* GENERAL STYLES */
+body {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding: 80px 60px;
+}
+
+.section__heading{
+    font-size: 3rem;
+    margin-bottom: 80px;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 1000px){
+    body{
+        font-size: 10px;
+    }
+}
+
+/*HEADER STYLES*/
+.header {
+    background-image: url("../img/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+
+}
+
+.header__overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.header__navbar {
+    align-items: baseline;
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.header__links {
+    font-size: 1.5rem;
+}
+
+.header__links a {
+    margin-left: 1rem;
+}
+
+.header__slogan {
+    align-items: center;
+    display: flex;
+    color: #fff;
+    height: 70%;
+    font-size: 2rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.header__slogan h1{
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    font-weight: normal;
+    padding: 10px;
+}
+
+/*WHAT WE OFFER SECTION*/
+.packages{
+    text-align: center;
+}
+
+.packages__body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.packages__subheading{
+    font-size: 1.7rem;
+}
+
+.packages__text{
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+
+.packages__details{
+    flex-basis: 33.3333333%;
+}
+
+.packages__img{
+    max-width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2%;
+}
+
+@media only screen and (max-width: 1000px){
+    .packages{
+        font-size: 20px;
+    }
+    
+    .packages__body{
+        flex-direction: column;
+    }
+
+    .packages__details{
+        margin-top: 50px ;
+    }
+
+    .packages__details--first{
+        margin-top: 0px;
+    }
+
+}
+
+/*ABOUT SECTION*/
+
+.about{
+    text-align: center;
+    background-color: #323A3D;
+    color: #fff;
+}
+
+.about__details{
+    display: flex;
+    text-align: left;
+}
+
+.about__text__container{
+    margin-left: 50px;
+}
+
+.about__img{
+    max-width: 900px;
+    flex-basis: 50%;
+    border-radius: 2% ;
+}
+
+.about__text{
+    font-size: 22px;
+    flex-basis: 50%;
+}
+
+@media only screen and (max-width: 1000px){
+    .about{
+        font-size: 20px;
+    }
+    
+    .about--heading{
+        padding-bottom: 0;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .about__text__container{
+        margin-left: 0px;
+    }
+    
+    .about__details{
+        flex-wrap: wrap;
+    }
+
+    .about__img{
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .about__text{
+        flex-basis: 100%;
+    }
+}
+
+/*TEAM SECTION*/
+.team{
+    text-align: center;
+   
+}
+
+.team__body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team__details{
+    flex-basis: 32%;
+}
+
+.team__details div{
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.team__img{
+    max-width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2%;
+}
+
+.team__subheading{
+    font-size: 27px;
+}
+
+.team__text{
+    line-height: 1.5;
+    font-size: 21px;
+    text-align: left;
+}
+
+@media only screen and (max-width: 1000px){
+    .team{
+        font-size: 20px;
+    }
+    
+    .team__details{
+        margin-top: 50px;
+    }
+
+    .team__details--first{
+        margin-top: 0px;
+    }
+}
+
+
+/*CONTACT SECTION*/
+
+
+.contact{
+    background-color: #323A3D;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 32px;
+    justify-content: space-evenly;
+}
+
+.contact__details i{
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 1000px){
+    .contact{
+        flex-direction: column;
+        font-size: 20px;
+    }
+}
+
+
+/*FOOTER SECTION*/
