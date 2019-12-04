@@ -180,7 +180,7 @@ section{
 
     .about__img{
         flex-basis: 100%;
-        width: 100%;
+        max-width: 900px;
     }
 
     .about__text{
