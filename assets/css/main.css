@@ -251,18 +251,23 @@ section{
     color: #fff;
     display: flex;
     flex-wrap: wrap;
-    font-size: 32px;
+    font-size: 30px;
     justify-content: space-evenly;
 }
 
 .contact__details i{
     margin-right: 30px;
+    font-size: 35px;
 }
 
 @media only screen and (max-width: 1024px){
     .contact{
         flex-direction: column;
+        align-content: center;
         font-size: 25px;
+    }
+    .contact__details{
+        margin-top: 30px;
     }
 }
 
