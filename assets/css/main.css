@@ -23,9 +23,9 @@ section{
     margin-top: 0;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1024px){
     body{
-        font-size: 10px;
+        font-size: 25px;
     }
 }
 
@@ -108,7 +108,19 @@ section{
     border-radius: 2%;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1024px){
+    .packages{
+        font-size: 25px;
+    }
+
+    .packages__subheading{
+        font-size: 30px;
+    }
+
+    .packages__img{
+        max-width: 600px;
+    }
+    
     .packages__body{
         flex-direction: column;
     }
@@ -141,17 +153,21 @@ section{
 }
 
 .about__img{
-    max-width: 60rem;
+    max-width: 900px;
     flex-basis: 50%;
     border-radius: 2% ;
 }
 
 .about__text{
-    font-size: 1.4rem;
+    font-size: 22px;
     flex-basis: 50%;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1024px){
+    .about{
+        font-size: 25px;
+    }
+    
     .about--heading{
         padding-bottom: 0;
         margin-bottom: 30px;
@@ -165,6 +181,12 @@ section{
     .about__details{
         flex-wrap: wrap;
     }
+
+    .about__img{
+        flex-basis: 100%;
+        max-width: 900px;
+    }
+
     .about__text{
         flex-basis: 100%;
     }
@@ -186,27 +208,31 @@ section{
 }
 
 .team__details div{
-  max-width: 32.5rem;
+  max-width: 520px;
   margin: 0 auto;
 }
 
 .team__img{
-    max-width: 31.25rem;
+    max-width: 500px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 2%;
 }
 
 .team__subheading{
-    font-size: 1.7rem;
+    font-size: 30px;
 }
 
 .team__text{
     line-height: 1.5;
-    font-size: 1.3rem;
+    font-size: 21px;
     text-align: left;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1024px){
+    .team{
+        font-size: 25px;
+    }
+    
     .team__details{
         margin-top: 50px;
     }
@@ -216,12 +242,16 @@ section{
     }
 }
 
+
+/*CONTACT SECTION*/
+
+
 .contact{
     background-color: #323A3D;
     color: #fff;
     display: flex;
     flex-wrap: wrap;
-    font-size: 2rem;
+    font-size: 32px;
     justify-content: space-evenly;
 }
 
@@ -229,12 +259,12 @@ section{
     margin-right: 30px;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1024px){
     .contact{
         flex-direction: column;
+        font-size: 25px;
     }
 }
 
-/*CONTACT SECTION*/
 
 /*FOOTER SECTION*/
